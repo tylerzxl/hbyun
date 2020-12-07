@@ -77,6 +77,10 @@ public class AuthController {
     }
 
     private CommonAuthResult processExistsCookie(HttpServletRequest request, String isvTokenName) {
+        Cookie[] cookies = request.getCookies();
+        if (cookies == null || cookies.length == 0){
+            return null;
+        }
         Cookie isvTokenCookie = Arrays.stream(request.getCookies()).filter(cookie -> cookie.getName().equals(isvTokenName)).findAny().orElse(null);
 
         //如已有有效cookie就不再生成新的

@@ -27,7 +27,7 @@
         <ucf.version>1.0.6-RELEASE</ucf.version>
         <imeta.groupId>org.imeta</imeta.groupId>
         <imeta.version>2.0.24-SNAPSHOT</imeta.version>
-        <mdd.version>3.0.4-RELEASE</mdd.version>
+        <mdd.version>3.0.4-SNAPSHOT</mdd.version>
         <iuap-billcode.version>2.3.1-RELEASE</iuap-billcode.version>
         <cglib.version>3.1</cglib.version>
         <yonscript.version>1.0.6-SNAPSHOT</yonscript.version>
